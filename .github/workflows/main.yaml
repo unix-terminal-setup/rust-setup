@@ -13,11 +13,8 @@ jobs:
       run:
         shell: bash
     steps:
-      - name: Execute Script
+      - uses: actions/checkout@v4
+      - name: Execute & Verify Script
         run: |
-          ./setup.sh
-      - name: Verify Installation
-        run: |
-          rustup --version
-          cargo --version
-          cargo install-update --version
+          $GITHUB_WORKSPACE/setup.sh
+          $GITHUB_WORKSPACE/verify.sh
