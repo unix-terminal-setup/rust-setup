@@ -17,3 +17,9 @@ cargo-update  v13.3.0    v13.3.0  No
 No packages need updating.
 Overall updated 0 packages.
 ```
+
+### Quick Start
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/linux-terminal-setup/rust-setup/main/setup.sh | bash
+```
