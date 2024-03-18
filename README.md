@@ -1,3 +1,6 @@
+![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/licence-GPL--3.0-blue)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](.github/CONTRIBUTING.md)
+<br>
+
 # rust-setup
 Script that setups Rust so that you can use cargo to install awesome terminal utilities.
 
