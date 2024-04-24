@@ -21,5 +21,5 @@ Overall updated 0 packages.
 ### Quick Start
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/linux-terminal-setup/rust-setup/main/setup.sh | bash
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/unix-terminal-setup/rust-setup/main/setup.sh | bash
 ```
